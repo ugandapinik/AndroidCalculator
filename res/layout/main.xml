@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_alignParentBottom="true"
+    >
+	
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/prev"
+            android:gravity="right"
+            android:layout_marginTop="15dp"
+            android:inputType="text"
+           	android:textSize="13dp"
+            />
+    </TableRow>
+    
+    <TableRow>
+        <EditText 
+	        android:id="@+id/screen"
+	        android:text="@string/zero"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        android:inputType="numberDecimal"
+            android:background="#FFFFFF"
+            android:padding="15dp"
+            android:gravity="right"
+            android:textSize="30dp"
+            android:enabled="false"
+	        /> 
+	        
+            <!-- android:enabled is deprecated. -->
+    </TableRow>
+    
+    
+    
+    <!-- TABLE FIRST ROW -->
+    <TableRow 
+        android:layout_marginBottom="2dp"
+        >
+        <!-- Button CANCEL -->
+        <Button 
+            android:id="@+id/cancel"
+            android:text="@string/cancel"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            
+            />
+        
+        <!-- Button CLEAR -->
+        <Button 
+            android:id="@+id/clear"
+            android:text="@string/clear"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            
+            />
+        
+        <!-- Button DELETE -->
+        <Button 
+            android:id="@+id/delete"
+            android:text="@string/delete"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Division -->
+        <Button 
+            android:id="@+id/division"
+            android:text="@string/division"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            
+            />
+        
+        
+    </TableRow>
+    
+    <!-- TABLE FIRST ROW -->
+    <TableRow 
+        android:layout_marginBottom="2dp">
+        <!-- Button SEVEN -->
+        <Button 
+            android:id="@+id/seven"
+            android:text="@string/seven"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Eight -->
+        <Button 
+            android:id="@+id/eight"
+            android:text="@string/eight"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button NINE -->
+        <Button 
+            android:id="@+id/nine"
+            android:text="@string/nine"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Multiply -->
+        <Button 
+            android:id="@+id/multiply"
+            android:text="@string/multiply"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        
+    </TableRow>
+    
+    <!-- TABLE SECOND ROW -->
+    <TableRow 
+        android:layout_marginBottom="2dp">
+        <!-- Button four -->
+        <Button 
+            android:id="@+id/four"
+            android:text="@string/four"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Five -->
+        <Button 
+            android:id="@+id/five"
+            android:text="@string/five"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Six -->
+        <Button 
+            android:id="@+id/six"
+            android:text="@string/six"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Minus -->
+        <Button 
+            android:id="@+id/minus"
+            android:text="@string/minus"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+    </TableRow>
+    
+    
+    
+    <!-- TABLE THIRD ROW -->
+    <TableRow 
+        android:layout_marginBottom="2dp">
+        <!-- Button ONE -->
+        <Button 
+            android:id="@+id/one"
+            android:text="@string/one"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button TWO -->
+        <Button 
+            android:id="@+id/two"
+            android:text="@string/two"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button THREE -->
+        <Button 
+            android:id="@+id/three"
+            android:text="@string/three"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button Minus -->
+        <Button 
+            android:id="@+id/plus"
+            android:text="@string/plus"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+    </TableRow>
+    
+    
+    
+    <!-- TABLE THIRD ROW -->
+    <TableRow 
+        android:layout_marginBottom="2dp">
+        <!-- Button PLUS/MINUS -->
+        <Button 
+            android:id="@+id/posNeg"
+            android:text="@string/posNeg"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button ZERO -->
+        <Button 
+            android:id="@+id/zero"
+            android:text="@string/zero"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button DOT -->
+        <Button 
+            android:id="@+id/dot"
+            android:text="@string/dot"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+        <!-- Button EQUAL -->
+        <Button 
+            android:id="@+id/equal"
+            android:text="@string/equal"
+            android:layout_height="fill_parent"
+            android:background="#00AFF0"
+            android:paddingTop="15dp"
+            android:textColor="#f5f5f5"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        
+    </TableRow>
+    
+    
+</TableLayout>
+
+
+
